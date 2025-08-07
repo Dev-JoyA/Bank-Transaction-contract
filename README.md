@@ -62,3 +62,15 @@ struct AccountDetails {
     uint256 balance;
     address walletAddress;
 }
+```
+## Deployed txn hash
+```shell
+0xC3477Ff846b4Dc2d852405b7309307f3D14c9dC1
+```
+
+## Verified Address
+```shell
+https://sepolia-blockscout.lisk.com/address/0xC3477Ff846b4Dc2d852405b7309307f3D14c9dC1#code
+```
+
+
