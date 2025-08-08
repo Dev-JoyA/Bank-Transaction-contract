@@ -23,7 +23,7 @@ contract BankTranx{
 
     error NotAllowed();
 
-    mapping (uint256 => AccountDetails) customerAccount;
+    mapping (uint256 => AccountDetails) public customerAccount;
 
     function createAccount(uint256 _number,
      string memory _name,

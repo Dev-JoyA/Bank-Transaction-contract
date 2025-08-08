@@ -1,11 +1,12 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-verify");
-const { vars } = require("hardhat/config");
+import { HardhatConfig } from "hardhat/config";
+const { vars} = require("hardhat/config");
 
 const PRIVATE_KEY = vars.get("PRIVATE_KEY");
 const ETHERSCAN_API_KEY = vars.get("ETHERSCAN_API_KEY");
 
-const config = {
+const config: HardhatConfig = {
   solidity: "0.8.28",
   defaultNetwork: "lisk-sepolia",
 
